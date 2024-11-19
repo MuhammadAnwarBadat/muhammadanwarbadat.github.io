@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Muhammad Anwar",
+  title: "Hi all, I'm Muhammad Anwar",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A dedicated Computer Scientist specializing in Machine Learning 🚀 with experience in building robust data analysis workflows and ETL pipelines using Python, SQL, NoSQL, and Apache Spark. Skilled in web scraping, data manipulation, and visualization, I bring insights to AI projects. Currently diving into cloud platforms like AWS and GCP to expand my expertise. Passionate about harnessing data to drive impactful solutions!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/MuhammadAnwarBadat",
+  linkedin: "http://www.linkedin.com/in/mmohamed-anwar",
+  gmail: "anwarbadat1997.ab@gmail.com",
+  medium: "https://medium.com/@mohamedanwar.ma",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -60,64 +57,116 @@ const skillsSection = {
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Got icons from the given urls https://www.svgrepo.com/vectors/ and 
+  https://brandfetch.com/ and https://techicons.dev/icons/ */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      customIconPath: "python.svg"  
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Django",
+      customIconPath: "django.svg"  
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "FastAPIs",
+      customIconPath: "FastAPI.svg"  
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Flask",
+      customIconPath: "flask.svg"  
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Pandas",
+      customIconPath: "Pandas.svg"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Numpy",
+      customIconPath: "numpy.svg"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Plotly",
+      customIconPath: "Plotly.svg"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Tensorflow",
+      customIconPath: "tensorflow.svg"
+    },
+    {
+      skillName: "Keras",
+      customIconPath: "Keras.svg"
+    },
+    {
+      skillName: "PyTorch",
+      customIconPath: "pytorch.svg"
+    },
+    {
+      skillName: "Hugging Face",
+      customIconPath: "Hugging-face.svg"
+    },
+    {
+      skillName: "OpenAI",
+      customIconPath: "openai.svg"
+    },
+    {
+      skillName: "LangChain",
+      customIconPath: "LangChain.svg"
+    },
+    {
+      skillName: "OpenCV",
+      customIconPath: "opencv.svg"
+    },
+    {
+      skillName: "Ultralytics",
+      customIconPath: "Ultralytics.svg"
+    },
+    {
+      skillName: "ApacheAirflow",
+      customIconPath: "Apache-airflow.svg"  
+    },
+    {
+      skillName: "ApacheKafka",
+      customIconPath: "kafka.svg"  
+    },
+    {
+      skillName: "ApacheSpark",
+      customIconPath: "Apache-spark.svg"  
+    },
+    {
+      skillName: "Docker",
+      customIconPath: "docker.svg"
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      customIconPath: "database.svg"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "AWS",
+      customIconPath: "aws.svg"  
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "GCP",
+      customIconPath: "google-cloud.svg"  
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "HTML",
+      customIconPath: "html.svg"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "JS",
+      customIconPath: "js.svg"
+    },
+    {
+      skillName: "WordPress",
+      customIconPath: "wordpress.svg"
+    },
+    {
+      skillName: "H2O.ai",
+      customIconPath: "H2O.ai.svg"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true  
 };
 
 // Education Section

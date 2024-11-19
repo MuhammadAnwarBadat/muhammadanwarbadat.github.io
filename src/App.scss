@@ -28,3 +28,9 @@
 .subTitle {
   color: $subTitle;
 }
+
+.custom-icon {
+  width: 50px; /* Adjust size of the SVG */
+  height: 50px; /* Adjust size of the SVG */
+  vertical-align: middle; /* Align the icon with the text */
+}
