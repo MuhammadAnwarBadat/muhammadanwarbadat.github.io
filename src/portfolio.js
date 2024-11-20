@@ -48,13 +48,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop robust data-driven applications and backend systems using Python, SQL, and NoSQL"),
+    emoji("⚡ Design and deploy microservices using technologies like Nginx, Apache, Digital Ocean and Docker for scalable, high-performance applications"),
+    emoji("⚡ Build and optimize data pipelines, ETL processes, and Machine Learning Models using Apache Kafka, Apache Spark, and H2O.ai for efficient processing, analysis, and real-time streaming."),
+    emoji("⚡ Integrate cloud platforms like AWS, GCP, and manage services for seamless deployment and scalability")
   ],
 
   /* Got icons from the given urls https://www.svgrepo.com/vectors/ and 
