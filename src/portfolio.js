@@ -176,8 +176,19 @@ const educationInfo = {
       duration: "September 2019 - April 2023",
       desc: "Research thesis focused on the classification of Diabetic Retinopathy using CNN for medical image analysis",
       descBullets: [
-        "Completed coursework in Data Structures, Algorithms, and Machine Learning.",
-        "Collaborated on projects integrating machine learning models for real-world applications in healthcare and AI."
+        "Took courses about Data Structures & Algorithms, Machine Learning, Artificial Intelligence, ... ",
+        "Held leadership and creative roles, including Vice President at TEDxUIT, managing events like TEDxFEST, and Graphics Designer at GDG Pakistan, contributing to Android Seekho and DevFest."
+      ]
+    },
+    {
+      schoolName: "AMAL ACADEMY",
+      logo: require("./assets/images/ABC_Logo.png"), // Replace with the actual logo file
+      subHeader: "Career-Pre Fellow Certificate by Stanford University accredated institute",
+      duration: "November 2021 - Feburary 2022",
+      desc: "a prestigious 3-month fellowship by Stanford University and Acumen, focusing on business communication, leadership, and problem-solving.",
+      descBullets: [
+        "Invested 150 hours in skill development, enhancing teamwork and strategic thinking.",
+        "Successfully raised funds for the Edhi Foundation through a targeted social media campaign."
       ]
     }
   ]
