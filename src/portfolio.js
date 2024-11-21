@@ -182,7 +182,7 @@ const educationInfo = {
     },
     {
       schoolName: "AMAL ACADEMY",
-      logo: require("./assets/images/ABC_Logo.png"), // Replace with the actual logo file
+      logo: require("./assets/images/standfordLogo.png"), // Replace with the actual logo file
       subHeader: "Career-Pre Fellow Certificate by Stanford University accredated institute",
       duration: "November 2021 - Feburary 2022",
       desc: "a prestigious 3-month fellowship by Stanford University and Acumen, focusing on business communication, leadership, and problem-solving.",
