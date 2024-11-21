@@ -166,29 +166,19 @@ const skillsSection = {
   display: true  
 };
 
-// Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "NED University of Engineering and Technology",
+      logo: require("./assets/images/NED_Logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2019 - April 2023",
+      desc: "Research thesis focused on the classification of Diabetic Retinopathy using CNN for medical image analysis",
+      descBullets: [
+        "Completed coursework in Data Structures, Algorithms, and Machine Learning.",
+        "Collaborated on projects integrating machine learning models for real-world applications in healthcare and AI."
+      ]
     }
   ]
 };
