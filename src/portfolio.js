@@ -23,7 +23,7 @@ const greeting = {
   username: "Muhammad Anwar",
   title: "Hi all, I'm Muhammad Anwar",
   subTitle: emoji(
-    "A dedicated Computer Scientist specializing in Machine Learning 🚀 with experience in building robust data analysis workflows and ETL pipelines using Python, SQL, NoSQL, and Apache Spark. Skilled in web scraping, data manipulation, and visualization, I bring insights to AI projects. Currently diving into cloud platforms like AWS and GCP to expand my expertise. Passionate about harnessing data to drive impactful solutions!"
+    "Stuck in repetitive, time-consuming tasks? 🤔 Here I am! I’ll automate your work so what takes hours can be done in minutes—or even seconds. A passionate Computer Scientist specializing in Machine Learning 🧠, I love solving problems, creating smart solutions, and adding value to people’s lives. Currently exploring cloud technologies to expand my skills and make an even greater impact!🚀"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -182,7 +182,7 @@ const educationInfo = {
     },
     {
       schoolName: "AMAL ACADEMY",
-      logo: require("./assets/images/standfordLogo.png"), // Replace with the actual logo file
+      logo: require("./assets/images/amalLogo.png"), // Replace with the actual logo file
       subHeader: "Career-Pre Fellow Certificate by Stanford University accredated institute",
       duration: "November 2021 - Feburary 2022",
       desc: "a prestigious 3-month fellowship by Stanford University and Acumen, focusing on business communication, leadership, and problem-solving.",
@@ -234,28 +234,38 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Server4sale",
+      companylogo: require("./assets/images/s4sLogo.png"),
+      date: "December 2023 – Present",
+      desc: "Specialized in database design, data transformation, and developing AI/ML web applications with a focus on R&D in LLMs and Generative AI.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Design database schemas and build pipelines for data scraping, cleaning, and meaningful transformation.",
+        "Develop and deploy AI/ML-powered web applications tailored to real-world use cases.",
+        "Created customized WordPress sites, and conducted R&D in LLMs and generative AI to drive innovative solutions."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Python Developer and Graphic Designer",
+      company: "FIVERR",
+      companylogo: require("./assets/images/fiverrLogo.png"),
+      date: "Dec 2020 – May 2018",
+      desc: "Experienced in desktop app development, big data analytics, and predictive modeling to enhance decision-making and efficiency.",
+      descBullets: [
+        "Develop desktop GUI applications with Python, leveraging big data tools like NumPy, Pandas, and SciPy.",
+        "Deliver data analysis and predictive modeling using Excel, Power BI, Tableau, and Python, achieving improved decision-making efficiency and accuracy.",
+        "Excel in client management, communication, and negotiation to drive successful project outcomes."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Science and Business Analytics Intern",
+      company: "THE SPARKS FOUNDATION (TSF)",
+      companylogo: require("./assets/images/sparkLogo.png"),
+      date: "Sep 20123 – Oct 2023",
+      desc: "Skilled in leveraging Tableau and Python for data-driven insights and predictive modeling across diverse projects.",
+      descBullets: [
+        "Conduct exploratory analyses and build ML predictions using Python and Tableau.",
+        "Develop decision tree models and predictive frameworks for stock market trends and COVID-19 analysis."
+      ]
     }
   ]
 };
