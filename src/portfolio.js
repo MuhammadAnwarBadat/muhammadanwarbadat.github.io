@@ -260,7 +260,7 @@ const workExperiences = {
       role: "Data Science and Business Analytics Intern",
       company: "THE SPARKS FOUNDATION (TSF)",
       companylogo: require("./assets/images/sparkLogo.png"),
-      date: "Sep 20123 – Oct 2023",
+      date: "Sep 2023 – Oct 2023",
       desc: "Skilled in leveraging Tableau and Python for data-driven insights and predictive modeling across diverse projects.",
       descBullets: [
         "Conduct exploratory analyses and build ML predictions using Python and Tableau.",
