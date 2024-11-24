@@ -285,7 +285,7 @@ const bigProjects = {
   subtitle: "ORGANIZATIONS I’VE SUPPORTED WITH DATA INSIGHTS AND TECH SOLUTIONS.",
   projects: [
     {
-      image: require("./assets/images/navttcLogo.png"),
+      image: require("./assets/images/1.png"),
       projectName: "NAVTCC Data Monitoring and Reporting",
       projectDesc: "Led a comprehensive data analysis project for NAVTCC, involving Data Processing Workflow to provide actionable insights on KPIs, while recommending future course trends to enhance educational outcomes.",
       footerLink: [
@@ -297,7 +297,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/POB-Logo.png"),
+      image: require("./assets/images/3.png"),
       projectName: "Classification of Diabetic Retinopathy by CNN",
       projectDesc: "Developed a Convolutional Neural Network (CNN)-based system to classify diabetic retinopathy in retinal images, providing accurate diagnostic support for POB Eye Hospital Karachi.",
       footerLink: [
@@ -309,7 +309,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/sindhAgriculture.png"),
+      image: require("./assets/images/2.png"),
       projectName: "Multicrop Pest Identification System",
       projectDesc: "Developed a pest identification system for sugarcane, tomato, potato, and apple leaves to assist the Sindh Forest and Agriculture Department in crop protection and management.",
       footerLink: [
