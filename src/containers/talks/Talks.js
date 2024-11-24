@@ -101,8 +101,6 @@
 //   );
 // }
 
-import React from "react";
-
 export default function Talks() {
   return null; // This ensures the component renders nothing
 }
