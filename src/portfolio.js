@@ -248,7 +248,7 @@ const workExperiences = {
       role: "Python Developer and Graphic Designer",
       company: "FIVERR",
       companylogo: require("./assets/images/fiverrLogo.png"),
-      date: "Dec 2020 – May 2018",
+      date: "Dec 2020 – May 2023",
       desc: "Experienced in desktop app development, big data analytics, and predictive modeling to enhance decision-making and efficiency.",
       descBullets: [
         "Develop desktop GUI applications with Python, leveraging big data tools like NumPy, Pandas, and SciPy.",
@@ -278,32 +278,44 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Some major projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Key Projects",
+  subtitle: "ORGANIZATIONS I’VE SUPPORTED WITH DATA INSIGHTS AND TECH SOLUTIONS.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/navttcLogo.png"),
+      projectName: "NAVTCC Data Monitoring and Reporting",
+      projectDesc: "Led a comprehensive data analysis project for NAVTCC, involving Data Processing Workflow to provide actionable insights on KPIs, while recommending future course trends to enhance educational outcomes.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://navttc.gov.pk/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/POB-Logo.png"),
+      projectName: "Classification of Diabetic Retinopathy by CNN",
+      projectDesc: "Developed a Convolutional Neural Network (CNN)-based system to classify diabetic retinopathy in retinal images, providing accurate diagnostic support for POB Eye Hospital Karachi.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://pobtrust.org/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/sindhAgriculture.png"),
+      projectName: "Multicrop Pest Identification System",
+      projectDesc: "Developed a pest identification system for sugarcane, tomato, potato, and apple leaves to assist the Sindh Forest and Agriculture Department in crop protection and management.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sindhforests.gov.pk/"
         }
       ]
     }
