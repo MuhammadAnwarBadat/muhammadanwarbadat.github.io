@@ -329,54 +329,68 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications, Achievements, and Professional Recognitions",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Certified Data Analyst",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Earned the Google Certified Data Analyst credential, demonstrating expertise in data analysis, visualization, and insights generation using industry-standard tools and methodologies.",
+      image: require("./assets/images/5.png"),
+      imageAlt: "Google Data Analyst Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1pQE1f6dwnj8UC7BPEos_Q9gslr844r6Q/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "IBM Data Engineering Professional Certificate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed the IBM Data Engineering Professional Certificate, showcasing proficiency in building data pipelines, ETL processes, and managing databases for scalable data solutions.",
+      image: require("./assets/images/4.png"),
+      imageAlt: "IBM Data Engineer Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1kT-hH6ZpM9GWGSK2aIERl06usbITC33S/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "IBM Data Engineering Professional Certificate",
+      subtitle:
+        "Recognized for outstanding performance and innovative solutions in Lablab AI Hackathons, receiving appreciation from mentors and PhDs for contributions to AI-driven projects.",
+      image: require("./assets/images/10.png"),
+      imageAlt: "Lablab AI Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1NwK1nb1piv-Jc4oO8UvmKVWqt12ARsmI/view?usp=sharing"
+        },
+        {
+          name: "Project Presentation",
+          url: "https://storage.googleapis.com/lablab-static-eu/presentations/submissions/clris8iv1000p2v72h9ywov19/clris8iv1000p2v72h9ywov19-1705920736679_ksb8f0xzu.pdf"
+        },
+        {
+          name: "Project Demo",
+          url: "https://lablab.ai/event/nextgen-gpt-ai-hackathon/nextgen-nexus/ecolife360"
+        }
+      ]
+    },
+
+    {
+      title: "Vice President at TEDxUIT",
+      subtitle: "CoServed as Vice President of TEDxUIT, leading event management, team coordination, and community initiatives, including TEDxFEST 2023, panel discussions, and TEDx Circles for impactful storytelling and engagement.",
+      image: require("./assets/images/8.png"),
+      imageAlt: "TEDxUIT Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certificate of Recognition",
+          url: "https://drive.google.com/file/d/1tt-fSbdBbBN-g486PnxB1XICnJfANoQU/view?usp=sharing"
         }
       ]
     }
@@ -444,10 +458,10 @@ const contactInfo = {
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
+// const twitterDetails = {
+//   userName: "twitter", //Replace "twitter" with your twitter username without @
+//   display: true // Set true to display this section, defaults to false
+// };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -467,7 +481,7 @@ export {
   // talkSection,
   // podcastSection,
   contactInfo,
-  twitterDetails,
+  // twitterDetails,
   isHireable
   // resumeSection
 };
