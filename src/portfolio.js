@@ -4,10 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-// portfolio.js
-import React from 'react';
-import TravellingGallery from './containers/TravellingGallery/TravellingGallery';
-import './TravellingGallery.scss'; // You can style this component
 
 // Splash Screen
 
@@ -451,68 +447,6 @@ const blogSection = {
 //   ],
 //   display: true // Set false to hide this section, defaults to true
 // };
-
-// TravellingGallery.js
-
-const TravellingGallery = () => {
-  const galleryItems = [
-    {
-      title: "Travelling Gallery",
-      media: require("./assets/images/TravelGallery/Copy of DSC09372.JPG"),  // Image or video
-      description: "Exploring the beauty of the Swiss Alps.",
-      footerLink: [
-        {
-          name: "See more",
-          url: "https://example.com/switzerland"
-        }
-      ]
-    },
-    {
-      media: require("./assets/images/TravelGallery/VID_20221008_170759"), // Image or video
-      description: "A serene moment in the Maldives.",
-      footerLink: [
-        {
-          name: "See more",
-          url: "https://example.com/maldives"
-        }
-      ]
-    },
-    {
-      media: require("./assets/images/TravelGallery/Copy of IMG_4556.JPG"), // Image or video
-      description: "Adventuring through the Grand Canyon.",
-      footerLink: [
-        {
-          name: "See more",
-          url: "https://example.com/grandcanyon"
-        }
-      ]
-    }
-    // Add more items as needed
-  ];
-
-  return (
-    <section className="travelling-gallery">
-      <h2>My Travelling Gallery</h2>
-      <div className="gallery">
-        {galleryItems.map((item, index) => (
-          <div className="gallery-item" key={index}>
-            <img src={item.media} alt={`travel-${index}`} className="gallery-media" />
-            <p>{item.description}</p>
-            <div className="footer-links">
-              {item.footerLink.map((link, idx) => (
-                <a href={link.url} key={idx} className="footer-link">
-                  {link.name}
-                </a>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
-
-export default TravellingGallery;
 
 
 const contactInfo = {
