@@ -450,19 +450,70 @@ const blogSection = {
 //   display: true // Set false to hide this section, defaults to true
 // };
 
-// Section displaying my travelling images
+// TravellingGallery.js
+import React from 'react';
+import './TravellingGallery.scss'; // You can style this component
 
-const Portfolio = () => {
+const TravellingGallery = () => {
+  const galleryItems = [
+    {
+      title: "Travelling Gallery",
+      media: require("./assets/images/TravelGallery/Copy of DSC09372.JPG"),  // Image or video
+      description: "Exploring the beauty of the Swiss Alps.",
+      footerLink: [
+        {
+          name: "See more",
+          url: "https://example.com/switzerland"
+        }
+      ]
+    },
+    {
+      media: require("./assets/images/TravelGallery/VID_20221008_170759"), // Image or video
+      description: "A serene moment in the Maldives.",
+      footerLink: [
+        {
+          name: "See more",
+          url: "https://example.com/maldives"
+        }
+      ]
+    },
+    {
+      media: require("./assets/images/TravelGallery/Copy of IMG_4556.JPG"), // Image or video
+      description: "Adventuring through the Grand Canyon.",
+      footerLink: [
+        {
+          name: "See more",
+          url: "https://example.com/grandcanyon"
+        }
+      ]
+    }
+    // Add more items as needed
+  ];
+
   return (
-    <div>
-      <h1>Welcome to My Portfolio</h1>
-      {/* Other sections of the portfolio */}
-      <TravellingGallery />
-    </div>
+    <section className="travelling-gallery">
+      <h2>My Travelling Gallery</h2>
+      <div className="gallery">
+        {galleryItems.map((item, index) => (
+          <div className="gallery-item" key={index}>
+            <img src={item.media} alt={`travel-${index}`} className="gallery-media" />
+            <p>{item.description}</p>
+            <div className="footer-links">
+              {item.footerLink.map((link, idx) => (
+                <a href={link.url} key={idx} className="footer-link">
+                  {link.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 
-export default Portfolio;
+export default TravellingGallery;
+
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
