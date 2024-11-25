@@ -5,10 +5,10 @@ import './TravellingGallery.scss';
 const TravellingGallery = () => {
   const galleryItems = [
     // You can replace these with actual image and video URLs later
-    { type: 'image', src: './assets/images/TravelGallery/Copy of DSC09372.JPG', alt: 'Image 1' },
-    { type: 'video', src: './assets/images/TravelGallery/VID_20221008_170759.mp4', alt: 'Video 1' },
-    { type: 'image', src: './assets/images/TravelGallery/Copy of DSC09449.JPG', alt: 'Image 2' },
-    { type: 'image', src: './assets/images/TravelGallery/Copy of IMG_8298.jpg', alt: 'Image 3' },
+    { type: 'image', src: '/src/assets/images/TravelGallery/Copy of DSC09372.JPG', alt: 'Image 1' },
+    { type: 'video', src: '/src/assets/images/TravelGallery/VID_20221008_170759.mp4', alt: 'Video 1' },
+    { type: 'image', src: '/src/assets/images/TravelGallery/Copy of DSC09449.JPG', alt: 'Image 2' },
+    { type: 'image', src: '/src/assets/images/TravelGallery/Copy of IMG_4556.JPG', alt: 'Image 3' },
     // Add more images/videos as required
   ];
 
