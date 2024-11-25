@@ -4,7 +4,9 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+// portfolio.js
+import React from 'react';
+import TravellingGallery from './container/TravellingGallery/TravellingGallery';
 // Splash Screen
 
 const splashScreen = {
@@ -447,6 +449,20 @@ const blogSection = {
 //   ],
 //   display: true // Set false to hide this section, defaults to true
 // };
+
+// Section displaying my travelling images
+
+const Portfolio = () => {
+  return (
+    <div>
+      <h1>Welcome to My Portfolio</h1>
+      {/* Other sections of the portfolio */}
+      <TravellingGallery />
+    </div>
+  );
+};
+
+export default Portfolio;
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
