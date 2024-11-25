@@ -7,6 +7,8 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // portfolio.js
 import React from 'react';
 import TravellingGallery from './containers/TravellingGallery/TravellingGallery';
+import './TravellingGallery.scss'; // You can style this component
+
 // Splash Screen
 
 const splashScreen = {
@@ -451,8 +453,6 @@ const blogSection = {
 // };
 
 // TravellingGallery.js
-import React from 'react';
-import './TravellingGallery.scss'; // You can style this component
 
 const TravellingGallery = () => {
   const galleryItems = [
