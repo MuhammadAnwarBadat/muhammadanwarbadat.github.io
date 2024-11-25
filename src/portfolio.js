@@ -360,7 +360,7 @@ const achievementSection = {
     },
 
     {
-      title: "IBM Data Engineering Professional Certificate",
+      title: "Hackathon Recognition",
       subtitle:
         "Recognized for outstanding performance and innovative solutions in Lablab AI Hackathons, receiving appreciation from mentors and PhDs for contributions to AI-driven projects.",
       image: require("./assets/images/10.png"),
