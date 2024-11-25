@@ -6,7 +6,7 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 // portfolio.js
 import React from 'react';
-import TravellingGallery from './container/TravellingGallery/TravellingGallery';
+import TravellingGallery from './containers/TravellingGallery/TravellingGallery';
 // Splash Screen
 
 const splashScreen = {
