@@ -12,7 +12,7 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Credits to DeveloperFolio Team ❤️")}
           <a
-            href="https://github.com/saadpasta/developerFolio"
+            href="https://github.com/MuhammadAnwarBadat/"
             target="_blank"
             rel="noreferrer"
           >
